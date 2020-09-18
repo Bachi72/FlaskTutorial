@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %} {% endblock %}</title>
+    <h3>
+        Bachi72
+        <small class="text-muted">Computer science engineer.</small>
+    </h3>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
